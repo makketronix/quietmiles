@@ -2,7 +2,7 @@
 
 A privacy-first running and walking tracker for Android. No accounts, no ads, no analytics: your runs stay on your phone.
 
-<img src="docs/screenshot.png" alt="Quiet Miles during a run: time, distance, pace, speed and calories, an interval workout banner, and history charts" width="320" align="right">
+<img src="Docs/screenshot.png" alt="Quiet Miles during a run: time, distance, pace, speed and calories, an interval workout banner, and history charts" width="320" align="right">
 
 Quiet Miles is one screen. Press **Go**, run, press **End**. It measures time, distance, pace, speed and calories from GPS, coaches you through pace limits and interval workouts with sounds and vibration, and charts your history. Nothing is sent to a server.
 
