@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiet Miles Privacy</title>
+  <style>
+    :root { --bg: #f4f5f2; --text: #0b0b0b; --text-2: #52514e; --border: #d9dcd5; --accent: #127a55; }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) { --bg: #101412; --text: #ffffff; --text-2: #c3c2b7; --border: #33342f; --accent: #3fd39d; }
+    }
+    :root[data-theme="dark"] { --bg: #101412; --text: #ffffff; --text-2: #c3c2b7; --border: #33342f; --accent: #3fd39d; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 32px 16px 48px; }
+    h1 { font-size: 28px; line-height: 1.2; margin: 0 0 4px; }
+    h2 { font-size: 18px; margin: 28px 0 6px; }
+    p, li { color: var(--text-2); }
+    strong { color: var(--text); }
+    ul { padding-left: 20px; }
+    a { color: var(--accent); }
+    .meta { font-size: 14px; margin: 0 0 20px; }
+    .tldr { border: 1px solid var(--border); border-radius: 12px; padding: 4px 16px; }
+  </style>
+</head>
+<body>
+<main id="policy">
+  <h1>Quiet Miles privacy policy</h1>
+  <p class="meta">Effective 4 October 2026</p>
+
+  <div class="tldr">
+    <p><strong>In short:</strong> Quiet Miles has no accounts, no ads and no analytics. Your runs and settings stay on your phone. We (the developer) never receive any of your data. The only time the app talks to the internet is if you turn on the optional map.</p>
+  </div>
+
+  <h2>What the app stores, and where</h2>
+  <p>Everything below is stored only on your device, inside the app's private storage:</p>
+  <ul>
+    <li><strong>Settings:</strong> age, weight, units, pace limit, and whether the map is on.</li>
+    <li><strong>Run history:</strong> for each run, the date, duration, distance, estimated calories, lap times and the name of the workout used.</li>
+    <li><strong>Workouts</strong> you create.</li>
+  </ul>
+  <p>Your age and weight are only used to estimate calories. Android cloud backup and device-to-device transfer are turned off for this app, so this data is not copied to Google or to a new phone.</p>
+
+  <h2>Location</h2>
+  <p>Quiet Miles uses your phone's <strong>precise location (GPS)</strong> only while you are recording a run, to measure distance, speed and pace. While a run is recording, a notification is shown and GPS keeps working with the screen off. When you pause or end the run, location use stops.</p>
+  <p>Your GPS route is <strong>not saved</strong>: points are used to calculate distance and then discarded. Only the totals listed above are kept. Location is never sent to us or anyone else, and the app does not use Google Play services for location.</p>
+
+  <h2>The optional map (OpenFreeMap)</h2>
+  <p>The map is <strong>off by default</strong>. If you turn it on, the app asks for your consent first. With the map on, map images ("tiles") are downloaded from <a href="https://openfreemap.org">OpenFreeMap</a>, a free, independent map service, over an encrypted (HTTPS) connection.</p>
+  <p>Because the app requests the tiles around where you are, <strong>OpenFreeMap could infer your approximate area</strong> from those requests, and, like any website, it receives your IP address. Your GPS track, history and settings are never sent. OpenFreeMap's handling of these requests is covered by its own policies. You can turn the map off at any time with the "Show map" switch, and no further requests are made.</p>
+
+  <h2>What we don't do</h2>
+  <ul>
+    <li>No sign-in or user accounts.</li>
+    <li>No advertising, analytics, crash reporting or tracking SDKs.</li>
+    <li>No selling or sharing of personal data.</li>
+  </ul>
+
+  <h2>Deleting your data</h2>
+  <p>Use <strong>Clear data</strong> in the History section to delete all saved runs. Uninstalling the app deletes everything it stored. Because we never receive your data, there is nothing for us to delete on our side.</p>
+
+  <h2>Children</h2>
+  <p>Quiet Miles is not directed at children under 13 and does not knowingly collect information from them.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be published at this address with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy: <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a></p>
+</main>
+</body>
+</html>
