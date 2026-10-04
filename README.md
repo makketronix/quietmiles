@@ -14,11 +14,10 @@ Quiet Miles is one screen. Press **Go**, run, press **End**. It measures time, d
 
 ### Tracking
 - **Live stats:** elapsed time, distance, current pace, speed and calories.
-- **Accurate distance:** inaccurate GPS readings, jitter and impossible jumps are filtered out.
-- **Works with the screen off:** lock your phone and put it in your pocket. A notification shows while a run is recording, and nothing is lost while the screen is off.
+- **Accurate distance:**
+- **Works with the screen off:**
 - **Run controls:** Go, Pause, Continue, Lap and End. Movement while paused doesn't count.
 - **Auto lap:** a lap every 1 km or 1 mile, timed to the exact moment you cross it.
-- **Screen stays awake** during a run, if you want to watch it.
 
 ### Coaching
 - **Pace limit:** tap the pace card to set a limit, either "faster than" or "slower than". You get urgent beeps when you cross it, reminders while you stay over, and a chime once you're back within it.
@@ -27,11 +26,11 @@ Quiet Miles is one screen. Press **Go**, run, press **End**. It measures time, d
 - **Sounds and vibration** work with the screen locked, and briefly lower your music like navigation prompts do.
 
 ### You and your units
-- **Age and weight** are set with odometer-style rolling digit wheels (drag, flick or tap). They're used to estimate calories.
+- **Age and weight** Just run. You can set these very easily, before or after.
 - **Units:** tap the distance or speed card to switch between km and miles, and tap the weight unit to switch between kg and lb.
 
 ### History
-- **Every run is saved** with its date, duration, distance, calories and laps.
+- **Every run is saved only locally on your phone** with its date, duration, distance, calories and laps.
 - **Charts** of distance and time for your recent sessions, with totals and tap-for-details.
 - **Table view** of all your sessions.
 - **Clear data** deletes all history, after a confirmation.
@@ -39,7 +38,6 @@ Quiet Miles is one screen. Press **Go**, run, press **End**. It measures time, d
 ### Map (optional)
 - **Off by default.** Turning on **Show map** first explains what it means for your privacy, and only loads the map if you agree.
 - **Map:** [OpenFreeMap](https://openfreemap.org) (free, no tracking cookies) shows your position and route.
-- **Your choice is remembered**, and turning the map off stops it completely.
 
 ## Privacy
 
